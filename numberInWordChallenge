@@ -1,0 +1,81 @@
+package academy.learnprogrmming;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+        printNumberInWord(4);
+        printNumberInWords(10);
+
+    }
+    public static void printNumberInWord(int number) {
+        switch(number) {
+            case 0:
+                System.out.println("zero");
+                break;
+            case 1:
+                System.out.println("one");
+                break;
+            case 2:
+                System.out.println("two");
+                break;
+            case 3:
+                System.out.println("three");
+                break;
+            case 4:
+                System.out.println("four");
+                break;
+            case 5:
+                System.out.println("five");
+                break;
+            case 6:
+                System.out.println("six");
+                break;
+            case 7:
+                System.out.println("seven");
+                break;
+            case 8:
+                System.out.println("eight");
+                break;
+            case 9:
+                System.out.println("nine");
+                break;
+            default:
+                System.out.println("Other");
+                break;
+        }
+    }
+    public static void printNumberInWords(int number) {
+        if(number == 0) {
+            System.out.println("zero");
+        } else if (number == 1) {
+            System.out.println("one");
+        }else if (number == 2) {
+            System.out.println("two");
+        }else if (number == 3) {
+            System.out.println("three");
+        }else if (number == 4) {
+            System.out.println("four");
+        }else if (number == 5) {
+            System.out.println("five");
+        }else if (number == 6) {
+            System.out.println("six");
+        }else if (number == 7) {
+            System.out.println("seven");
+        }else if (number == 8) {
+            System.out.println("eight");
+        } else if (number == 9) {
+            System.out.println("nine");
+        }
+
+        else {
+            System.out.println("Other");
+        }
+    }
+}
+"C:\Program Files\Java\jdk-15.0.1\bin\java.exe" "-javaagent:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=50208:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\nadiy\IdeaProjects\AreaCalculatorExercise\out\production\AreaCalculatorExercise academy.learnprogrmming.Main
+four
+Other
+
+Process finished with exit code 0
+
